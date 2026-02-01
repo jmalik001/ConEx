@@ -139,7 +139,7 @@ def init_session_state():
         }
 
     if "user_name" not in st.session_state:
-        st.session_state.user_name = "Researcher"
+        st.session_state.user_name = "JB"
 
     if "indexed_docs" not in st.session_state:
         # Stores {'id': str, 'name': str, 'path': str, 'tool': FAISSInstance}
